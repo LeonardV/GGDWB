@@ -72,10 +72,10 @@ bemonstering <- get_hpzone_data(date.start = date.start, date.end = date.end,
 bemonstering$freq <- 1
 
 ## some checks
-table(df_sub_codes$GGD)
-range(df_sub_codes$datum[df_sub_codes$GGD == "HvB"])
-range(df_sub_codes$datum[df_sub_codes$GGD == "WB"])
-sort(unique(df_sub_codes$week))
+table(bemonstering$GGD)
+range(bemonstering$datum[bemonstering$GGD == "HvB"])
+range(bemonstering$datum[bemonstering$GGD == "WB"])
+sort(unique(df_subemonsteringb_codes$week))
 # -------------------------------------------------------------------------
 
 
