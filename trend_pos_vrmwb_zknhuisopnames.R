@@ -75,7 +75,7 @@ bemonstering$freq <- 1
 table(bemonstering$GGD)
 range(bemonstering$datum[bemonstering$GGD == "HvB"])
 range(bemonstering$datum[bemonstering$GGD == "WB"])
-sort(unique(df_subemonsteringb_codes$week))
+sort(unique(bemonstering$week))
 # -------------------------------------------------------------------------
 
 
