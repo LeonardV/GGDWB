@@ -26,7 +26,7 @@ zknhuisopnames <- read.csv2("https://data.rivm.nl/covid-19/COVID-19_ziekenhuisop
 zknhuisopnames_vrmwb <- zknhuisopnames[zknhuisopnames$Security_region_code == VRMWB, ]
 # selecteer benodigde variabelen
 zknhuisopnames_vrmwb <- zknhuisopnames_vrmwb[, c("Date_of_statistics",
-                                                 "Hospital_admission",
+                                                 "Hospital_admission_notification",
                                                  "Municipality_name")]
 # herbenoem kolommen
 names(zknhuisopnames_vrmwb) <- c("datum", "x", "GM_NAAM")
